@@ -11,10 +11,10 @@ app.use(bodyParser.json());
 const PORT = 5000;
 
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'MySQL_gautam',
-  password: 'your_password_here',
-  database: 'productdb',
+  host: 'mysql.railway.internal',
+  user: 'root',
+  password: 'gQXaAXkdIKikTLPMRmTJeNYSRKhFkCxg',
+  database: 'railway',
 });
 
 db.connect(err => {
